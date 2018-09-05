@@ -1,0 +1,244 @@
+{
+    "2001:660:4701:f080::e": {
+        "dnsLAN": "node-a8-14.strasbourg.iot-lab.info",
+        "site": "strasbourg",
+        "idLAN": "14",
+        "ipv6Addr": "2001:660:4701:f080::e",
+        "initValue": 71,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:5307:3000::64",
+            "2001:660:5307:3000::5f",
+            "2001:660:4701:f080::c"
+        ]
+    },
+    "2001:660:5307:3000::64": {
+        "dnsLAN": "node-a8-100.grenoble.iot-lab.info",
+        "site": "grenoble",
+        "idLAN": "100",
+        "ipv6Addr": "2001:660:5307:3000::64",
+        "initValue": 53,
+        "timeInterval": 1500,
+        "neighbor": [
+            "2001:660:4701:f080::e",
+            "2001:660:3207:400::66",
+            "2001:660:330f:a200::c"
+        ]
+    },
+    "2001:660:5307:3000::5f": {
+        "dnsLAN": "node-a8-95.grenoble.iot-lab.info",
+        "site": "grenoble",
+        "idLAN": "95",
+        "ipv6Addr": "2001:660:5307:3000::5f",
+        "initValue": 30,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:4701:f080::e",
+            "2001:660:3207:400::67",
+            "2001:660:5307:3000::66"
+        ]
+    },
+    "2001:660:3207:400::66": {
+        "dnsLAN": "node-a8-102.saclay.iot-lab.info",
+        "site": "saclay",
+        "idLAN": "102",
+        "ipv6Addr": "2001:660:3207:400::66",
+        "initValue": 45,
+        "timeInterval": 500,
+        "neighbor": [
+            "2001:660:5307:3000::64",
+            "2001:660:3207:400::68",
+            "2001:660:3207:400::67"
+        ]
+    },
+    "2001:660:3207:400::67": {
+        "dnsLAN": "node-a8-103.saclay.iot-lab.info",
+        "site": "saclay",
+        "idLAN": "103",
+        "ipv6Addr": "2001:660:3207:400::67",
+        "initValue": 12,
+        "timeInterval": 1500,
+        "neighbor": [
+            "2001:660:5307:3000::5f",
+            "2001:660:330f:a200::e",
+            "2001:660:3207:400::66"
+        ]
+    },
+    "2001:660:3207:400::68": {
+        "dnsLAN": "node-a8-104.saclay.iot-lab.info",
+        "site": "saclay",
+        "idLAN": "104",
+        "ipv6Addr": "2001:660:3207:400::68",
+        "initValue": 97,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:3207:400::66",
+            "2001:660:5307:3000::66"
+        ]
+    },
+    "2001:660:330f:a200::e": {
+        "dnsLAN": "node-a8-14.paris.iot-lab.info",
+        "site": "paris",
+        "idLAN": "14",
+        "ipv6Addr": "2001:660:330f:a200::e",
+        "initValue": 4,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:3207:400::67",
+            "2001:660:4701:f080::b",
+            "2001:660:4701:f080::a"
+        ]
+    },
+    "2001:660:4701:f080::b": {
+        "dnsLAN": "node-a8-11.strasbourg.iot-lab.info",
+        "site": "strasbourg",
+        "idLAN": "11",
+        "ipv6Addr": "2001:660:4701:f080::b",
+        "initValue": 10,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:330f:a200::e",
+            "2001:660:4701:f080::a",
+            "2001:660:4701:f080::d"
+        ]
+    },
+    "2001:660:5307:3000::66": {
+        "dnsLAN": "node-a8-102.grenoble.iot-lab.info",
+        "site": "grenoble",
+        "idLAN": "102",
+        "ipv6Addr": "2001:660:5307:3000::66",
+        "initValue": 65,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:3207:400::68",
+            "2001:660:330f:a200::d",
+            "2001:660:5307:3000::5f"
+        ]
+    },
+    "2001:660:330f:a200::d": {
+        "dnsLAN": "node-a8-13.paris.iot-lab.info",
+        "site": "paris",
+        "idLAN": "13",
+        "ipv6Addr": "2001:660:330f:a200::d",
+        "initValue": 79,
+        "timeInterval": 500,
+        "neighbor": [
+            "2001:660:5307:3000::66",
+            "2001:660:4701:f080::c",
+            "2001:660:3207:400::64"
+        ]
+    },
+    "2001:660:4701:f080::c": {
+        "dnsLAN": "node-a8-12.strasbourg.iot-lab.info",
+        "site": "strasbourg",
+        "idLAN": "12",
+        "ipv6Addr": "2001:660:4701:f080::c",
+        "initValue": 58,
+        "timeInterval": 1500,
+        "neighbor": [
+            "2001:660:330f:a200::d",
+            "2001:660:3207:400::64",
+            "2001:660:4701:f080::e"
+        ]
+    },
+    "2001:660:3207:400::64": {
+        "dnsLAN": "node-a8-100.saclay.iot-lab.info",
+        "site": "saclay",
+        "idLAN": "100",
+        "ipv6Addr": "2001:660:3207:400::64",
+        "initValue": 25,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:4701:f080::c",
+            "2001:660:5307:3000::60",
+            "2001:660:330f:a200::d"
+        ]
+    },
+    "2001:660:4701:f080::a": {
+        "dnsLAN": "node-a8-10.strasbourg.iot-lab.info",
+        "site": "strasbourg",
+        "idLAN": "10",
+        "ipv6Addr": "2001:660:4701:f080::a",
+        "initValue": 77,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:4701:f080::b",
+            "2001:660:4701:f080::d",
+            "2001:660:330f:a200::e"
+        ]
+    },
+    "2001:660:4701:f080::d": {
+        "dnsLAN": "node-a8-13.strasbourg.iot-lab.info",
+        "site": "strasbourg",
+        "idLAN": "13",
+        "ipv6Addr": "2001:660:4701:f080::d",
+        "initValue": 41,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:4701:f080::a",
+            "2001:660:330f:a200::b",
+            "2001:660:4701:f080::b"
+        ]
+    },
+    "2001:660:5307:3000::60": {
+        "dnsLAN": "node-a8-96.grenoble.iot-lab.info",
+        "site": "grenoble",
+        "idLAN": "96",
+        "ipv6Addr": "2001:660:5307:3000::60",
+        "initValue": 21,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:3207:400::64",
+            "2001:660:330f:a200::c",
+            "2001:660:330f:a200::b"
+        ]
+    },
+    "2001:660:330f:a200::c": {
+        "dnsLAN": "node-a8-12.paris.iot-lab.info",
+        "site": "paris",
+        "idLAN": "12",
+        "ipv6Addr": "2001:660:330f:a200::c",
+        "initValue": 5,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:5307:3000::60",
+            "2001:660:330f:a200::b",
+            "2001:660:5307:3000::64"
+        ]
+    },
+    "2001:660:330f:a200::b": {
+        "dnsLAN": "node-a8-11.paris.iot-lab.info",
+        "site": "paris",
+        "idLAN": "11",
+        "ipv6Addr": "2001:660:330f:a200::b",
+        "initValue": 100,
+        "timeInterval": 1000,
+        "neighbor": [
+            "2001:660:4701:f080::d",
+            "2001:660:330f:a200::c",
+            "2001:660:5307:3000::60"
+        ]
+    },
+    "ipv6Address": [
+        "2001:660:4701:f080::e",
+        "2001:660:5307:3000::64",
+        "2001:660:5307:3000::5f",
+        "2001:660:3207:400::66",
+        "2001:660:3207:400::67",
+        "2001:660:3207:400::68",
+        "2001:660:330f:a200::e",
+        "2001:660:4701:f080::b",
+        "2001:660:5307:3000::66",
+        "2001:660:330f:a200::d",
+        "2001:660:4701:f080::c",
+        "2001:660:3207:400::64",
+        "2001:660:4701:f080::a",
+        "2001:660:4701:f080::d",
+        "2001:660:5307:3000::60",
+        "2001:660:330f:a200::c",
+        "2001:660:330f:a200::b"
+    ],
+    "numberGroups": 1,
+    "realAverage": 46.64705882352941,
+    "udpPort": 4000
+}
